@@ -24,3 +24,5 @@ Company subpages: `mission.html`, `values.html`, `careers.html`, and `contact.ht
 ## Contact form
 
 `contact.html` submits directly to FormSubmit over HTTPS and delivers enquiries to `legal@armur.org`. Native required-field and email validation work without JavaScript; FormSubmit provides its confirmation page and default CAPTCHA. No test submission has been sent. Before launch, submit a message yourself and follow the activation email sent to `legal@armur.org`, then send a second message to verify delivery. The form discloses the external processing provider. No API keys or mail credentials are stored in the website.
+
+The careers form in `careers.html` uses the same FormSubmit recipient with a separate careers subject. It collects name, email, area of interest, an optional LinkedIn URL, and an introduction. No careers test enquiry has been sent.
