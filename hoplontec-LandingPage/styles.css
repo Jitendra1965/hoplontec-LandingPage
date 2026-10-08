@@ -94,3 +94,8 @@ h1 em,.page-intro h1 em{letter-spacing:inherit}
 .contact-form button{font-family:inherit;border:0;cursor:pointer;font-size:1rem}.contact-form button:focus-visible{outline:3px solid var(--green);outline-offset:4px}.contact-sidebar{display:grid;gap:1.5rem}
 @media(max-width:60rem){.contact-layout{gap:1.5rem}.form-row{grid-template-columns:1fr;gap:0}}
 @media(max-width:48rem){.contact-layout{grid-template-columns:1fr}.contact-form button{width:100%}}
+
+/* Official store badges retain their original proportions and wrap on phones. */
+.store-badges{display:flex;flex-wrap:wrap;align-items:center;gap:1rem;margin-top:1.5rem}
+.store-badges a{display:inline-flex;align-items:center;min-height:48px;max-width:100%;border-radius:7px}
+.store-badges img{display:block;height:48px;width:auto;max-width:100%;object-fit:contain}
