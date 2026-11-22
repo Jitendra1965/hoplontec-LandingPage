@@ -3,8 +3,13 @@ import hashlib
 from pathlib import Path
 import re
 import sys
+import shutil
 
 site = Path(sys.argv[1])
+# This script is called by both Pages workflows after collecting public files.
+source_root = Path(__file__).resolve().parent.parent
+for filename in ('robots.txt', 'sitemap.xml'):
+    shutil.copyfile(source_root / filename, site / filename)
 version = hashlib.sha256((site / 'styles.css').read_bytes()).hexdigest()[:12]
 for page in site.glob('*.html'):
     source = page.read_text()

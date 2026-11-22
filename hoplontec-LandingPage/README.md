@@ -26,3 +26,9 @@ Company subpages: `mission.html`, `values.html`, `careers.html`, and `contact.ht
 `contact.html` submits directly to FormSubmit over HTTPS and delivers enquiries to `legal@armur.org`. Native required-field and email validation work without JavaScript; FormSubmit provides its confirmation page and default CAPTCHA. No test submission has been sent. Before launch, submit a message yourself and follow the activation email sent to `legal@armur.org`, then send a second message to verify delivery. The form discloses the external processing provider. No API keys or mail credentials are stored in the website.
 
 The careers form in `careers.html` uses the same FormSubmit recipient with a separate careers subject. It collects name, email, area of interest, an optional LinkedIn URL, and an introduction. No careers test enquiry has been sent.
+
+## Search visibility
+
+All pages have unique titles, descriptions, and HTTPS canonical URLs. The homepage canonical is `https://hoplontec.io/`; home links use `./`. `sitemap.xml` lists the seven canonical pages, and `robots.txt` references it. The shared packaging script copies both files into deployment output. When adding a page, update the sitemap and the workflow’s public-file list. Armur artwork uses responsive WebP assets; the original PNG is retained as source.
+
+After deployment, the owner should verify the `hoplontec.io` Domain property in Google Search Console using its supplied DNS TXT record, submit `https://hoplontec.io/sitemap.xml`, and inspect the homepage and brands page with URL Inspection. No verification code has been invented or added. Google Analytics is separate from Search Console; indexing and rankings are not guaranteed. Review Page indexing and Core Web Vitals reports when data becomes available.
