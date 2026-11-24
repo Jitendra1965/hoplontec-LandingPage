@@ -36,3 +36,5 @@ After deployment, the owner should verify the `hoplontec.io` Domain property in 
 ## NiviLog
 
 `nivilog.html` is the dedicated product page linked from its card in `brands.html`. It is included in the sitemap and copied by the shared packaging script. Copy and artwork are based on the local NiviLog project's README and development previews, reviewed November 24, 2026. The owner confirmed that release is coming soon; the app is presented for adults 18+, with no unverified store links, release date, price, or medical benefit claims. Confirm public-release status and contact details before adding install badges.
+
+NiviLog’s expanded product page uses optimized meal-entry and feeling-overview development screenshots, a three-screen walkthrough, and accessible native FAQ disclosures. Source screenshots are in the local NiviLog project’s `docs/previews`; captions identify them as development examples.
