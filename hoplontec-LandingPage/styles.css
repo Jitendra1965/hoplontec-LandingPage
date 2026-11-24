@@ -130,3 +130,14 @@ h1 em,.page-intro h1 em{letter-spacing:inherit}
 .nivi-story blockquote{margin:2rem 0 1rem;padding-left:1.5rem;border-left:3px solid var(--nivi-teal);font-size:clamp(1.25rem,2vw,1.5rem);line-height:1.65;font-weight:500}
 .nivi-story-copy .nivi-story-signature{font-size:.875rem;margin-bottom:0}
 @media(max-width:48rem){.nivi-story{grid-template-columns:1fr;gap:1.5rem;padding:2rem 0}}
+
+/* Readable, accessible legal documents for NiviLog. */
+.nivi-legal-links{display:flex;gap:1rem 2rem;flex-wrap:wrap;padding:1.25rem 0;border-top:1px solid var(--line)}
+.nivi-legal-links a,.legal-page a,.nivilog-page #privacy a{text-decoration:underline;text-underline-offset:4px}
+.nivi-legal-links a{display:inline-flex;align-items:center;min-height:44px}
+.legal-page{max-width:850px;margin:auto;padding:3rem 0}.legal-document{font-size:1rem;line-height:1.85;color:var(--muted)}
+.legal-document h1{font-size:clamp(2rem,5vw,3.5rem);letter-spacing:-.035em;color:var(--green);margin:2rem 0 1rem}
+.legal-document h2{font-size:1.5rem;line-height:1.4;color:var(--green);margin:2.5rem 0 1rem;scroll-margin-top:2rem}
+.legal-document p{margin:0 0 1.25rem}.legal-document li{margin-bottom:.75rem}.legal-document ul{padding-left:1.5rem}
+.legal-contents{background:var(--pale);padding:1.5rem;border:1px solid var(--line);border-radius:16px;margin:2rem 0}.legal-contents h2{margin-top:0}.legal-contents ul{margin-bottom:0}
+@media(max-width:48rem){.legal-page{padding:2rem 0}.legal-contents{padding:1.25rem}}
