@@ -29,6 +29,10 @@ The careers form in `careers.html` uses the same FormSubmit recipient with a sep
 
 ## Search visibility
 
-All pages have unique titles, descriptions, and HTTPS canonical URLs. The homepage canonical is `https://hoplontec.io/`; home links use `./`. `sitemap.xml` lists the seven canonical pages, and `robots.txt` references it. The shared packaging script copies both files into deployment output. When adding a page, update the sitemap and the workflow’s public-file list. Armur artwork uses responsive WebP assets; the original PNG is retained as source.
+All pages have unique titles, descriptions, and HTTPS canonical URLs. The homepage canonical is `https://hoplontec.io/`; home links use `./`. `sitemap.xml` lists the eight canonical pages, and `robots.txt` references it. The shared packaging script copies both files into deployment output. When adding a page, update the sitemap and the workflow’s public-file list. Armur artwork uses responsive WebP assets; the original PNG is retained as source.
 
 After deployment, the owner should verify the `hoplontec.io` Domain property in Google Search Console using its supplied DNS TXT record, submit `https://hoplontec.io/sitemap.xml`, and inspect the homepage and brands page with URL Inspection. No verification code has been invented or added. Google Analytics is separate from Search Console; indexing and rankings are not guaranteed. Review Page indexing and Core Web Vitals reports when data becomes available.
+
+## NiviLog
+
+`nivilog.html` is the dedicated product page linked from its card in `brands.html`. It is included in the sitemap and copied by the shared packaging script. Copy and artwork are based on the local NiviLog project's README and development previews, reviewed November 24, 2026. The owner confirmed that release is coming soon; the app is presented for adults 18+, with no unverified store links, release date, price, or medical benefit claims. Confirm public-release status and contact details before adding install badges.
