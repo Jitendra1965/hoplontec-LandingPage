@@ -48,7 +48,7 @@ def markdown(text):
 
 
 def sync(source):
-    """Copy current facts in both languages, retaining pre-release draft status."""
+    """Publish current facts in both languages with the same applicability notice as the app."""
     for language in ('en', 'es'):
         es = language == 'es'
         suffix = '-es' if es else ''
@@ -61,7 +61,7 @@ def sync(source):
                 'POLICY_LINK': f'[hoplontec.io](https://hoplontec.io/nivilog-privacy{suffix}.html)',
                 'PRIVACY_REFERENCE': f'https://hoplontec.io/nivilog-privacy{suffix}.html',
                 'PRIVACY_VERSION': PRIVACY_VERSION, 'TERMS_VERSION': TERMS_VERSION,
-                'PUBLICATION_STATUS': '**Borrador previo al lanzamiento. NiviLog aún no está disponible en las tiendas.**' if es else '**Pre-release draft. NiviLog is not yet available in the app stores.**',
+                'PUBLICATION_STATUS': 'Esta versión se aplica cuando la aceptas en NiviLog.' if es else 'This version applies when you accept it in NiviLog.',
             }
             for key, value in values.items():
                 body = body.replace('{{' + key + '}}', value)

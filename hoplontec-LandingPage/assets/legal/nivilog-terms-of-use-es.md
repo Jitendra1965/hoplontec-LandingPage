@@ -2,7 +2,7 @@
 
 Versión 2026-11-25.2 · Actualizadas el 25 de noviembre de 2026
 
-**Borrador previo al lanzamiento. NiviLog aún no está disponible en las tiendas.**
+Esta versión se aplica cuando la aceptas en NiviLog.
 
 ## Tu acuerdo con Hoplontec
 

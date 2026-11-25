@@ -2,7 +2,7 @@
 
 Version 2026-11-25.2 · Updated November 25, 2026
 
-**Pre-release draft. NiviLog is not yet available in the app stores.**
+This version applies when you accept it in NiviLog.
 
 ## Your agreement with Hoplontec
 
