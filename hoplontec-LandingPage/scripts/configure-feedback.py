@@ -28,10 +28,11 @@ def configure(site, source):
     if form_id:
         # Existing enquiries use the same confirmed inbox. Replace naked inbox
         # destinations in public forms without changing their fields or subjects.
+        # Also refresh existing opaque endpoints when the configured ID changes.
         for name in ('contact.html', 'careers.html'):
             path = site / name
             if path.exists():
-                text = re.sub(r'action="https://formsubmit\.co/[^"/]*@[^"/]*"',
+                text = re.sub(r'action="https://formsubmit\.co/[^"/]+"',
                               f'action="https://formsubmit.co/{form_id}"', path.read_text())
                 path.write_text(text)
     print('Feedback forms enabled with an opaque recipient ID.' if form_id else
