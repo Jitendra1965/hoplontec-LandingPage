@@ -45,7 +45,7 @@ class FeedbackTests(unittest.TestCase):
         for value in ('person@example.com','https://formsubmit.co/identifier','too-short',123):
             with self.assertRaises(ValueError): self.config(value)
     def test_data_minimization_native_validation_and_locale_parity(self):
-        allowed={'satisfaction','topic','comment','language','product','reference','_subject','_template','_next','_honey'}
+        allowed={'satisfaction','topic','comment','language','product','reference','_url','_subject','_template','_next','_honey'}
         options=[]
         for language,name in [('en','nivilog-feedback.html'),('es','nivilog-feedback-es.html')]:
             text=(ROOT/name).read_text(); tags=Tags(text)
@@ -62,6 +62,17 @@ class FeedbackTests(unittest.TestCase):
             self.assertTrue(all(not x.get('src','').startswith('http') for x in tags.find('script')))
             options.append([x.get('value') for x in tags.find('option')])
         self.assertEqual(*options)
+    def test_formsubmit_receives_fixed_source_url_without_browser_referrer(self):
+        self.config('testOnlyOpaqueId123456789')
+        for suffix in ('', '-es'):
+            name = f'nivilog-feedback{suffix}.html'
+            tags = Tags((self.site / name).read_text())
+            self.assertEqual(tags.find('meta', name='referrer')[0]['content'], 'no-referrer')
+            self.assertEqual(tags.find('input', name='_url')[0]['value'],
+                             f'https://hoplontec.io/{name}')
+            self.assertEqual(tags.find('input', name='_url')[0]['type'], 'hidden')
+            self.assertEqual(tags.find('form')[0]['method'].upper(), 'POST')
+
     def test_local_links_and_privacy_languages_exist(self):
         for name in ROOT.glob('nivilog-feedback*.html'):
             for tag,attrs in Tags(name.read_text()).tags:
