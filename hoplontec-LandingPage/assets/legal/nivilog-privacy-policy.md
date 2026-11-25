@@ -1,8 +1,8 @@
 # NiviLog Privacy Policy
 
-Version 2026-11-24.3 · Updated November 24, 2026
+Version 2026-11-25.5 · Updated November 25, 2026
 
-**Pre-release draft. NiviLog is coming soon. This document describes the current development version.**
+**Pre-release draft. NiviLog is not yet available in the app stores.**
 
 ## Who is responsible
 
@@ -10,11 +10,11 @@ Hoplontec Inc ("Hoplontec", "we", "us") publishes NiviLog, a personal food and w
 
 **Mail:** 1111B S Governors Ave #87194, Dover, DE 19904, USA
 
-**Privacy enquiries and requests:** [legal@armur.org](mailto:legal@armur.org)
+**Privacy enquiries and requests:** [Contact form](https://hoplontec.io/contact.html)
 
 **Website:** [hoplontec.io](https://hoplontec.io)
 
-**Public copy of this policy:** [NiviLog Privacy Policy](https://hoplontec.io/nivilog-privacy.html)
+**Public copy of this policy:** [hoplontec.io](https://hoplontec.io/nivilog-privacy.html)
 
 ## Your choices before you start
 
@@ -28,8 +28,8 @@ You may decline the Terms or journal consent and still use the authenticated con
 
 NiviLog handles the following information when you provide it or enable the corresponding feature:
 
-- **Journal information:** foods, portions, meal times, notes, symptoms, mood, energy, goals and other details you enter, including drafts and edited versions. Nutrition totals and, if enabled, associations between records are derived from this information. These records and inferences can reveal health information.
-- **Photos and text:** images you select or capture for meal suggestions, the resulting suggestions, and text you type or dictate. Images can incidentally contain other people or identifying details; select only what you intend to process.
+- **Journal information:** foods, portions, meal times, notes, symptoms, mood, energy, goals, personal food names, label values, recipe ingredients and yields, and food shortcuts, and other details you enter, including drafts and edited versions. Nutrition totals and, if enabled, associations between records are derived from this information. These records and inferences can reveal health information.
+- **Photos and text:** images you select or capture for meal suggestions or nutrition-label scanning, the recognized label text and resulting suggestions, and text you type or dictate. Images can incidentally contain other people or identifying details; select only what you intend to process.
 - **Google connection information:** the account identifier and email used for your connection, authorization managed by Google's sign-in software, spreadsheet identifiers, and cached entries and revision history downloaded from your Sheet. NiviLog does not ask for your Google password.
 - **Choices and device information:** your adult declaration and its time, privacy choices, document versions and acceptance times, appearance/accessibility preferences, and the result of a device authentication request. NiviLog receives no fingerprint, face template or device passcode from the authentication prompt. We do not ask for your birth date or identity document during onboarding.
 - **Messages you send to Hoplontec:** your contact details and the information you choose to include in your message. Health information is not needed to make a support or privacy enquiry.
@@ -38,15 +38,29 @@ Information comes from you, your device, your connected Google Sheet and calcula
 
 ## How information is used
 
-**Local journal and estimates.** NiviLog stores and displays your entries, saves drafts and revisions, and estimates nutrition using its offline food catalogue and the portions you confirm. Supported photo and text suggestions run on the device. The app does not send journal text or photos to OpenAI or another hosted AI inference service. A model or platform component may need an initial download; the download provider can receive ordinary network information such as an IP address.
+**Local journal and estimates.** NiviLog stores and displays your entries, saves drafts and revisions, and estimates nutrition using its offline food catalogue, any personal label values you enter, and the portions you confirm. Personal label foods, recipes and shortcuts can be saved, edited and removed in My foods. Recipe estimates use the ingredient amounts and number of servings you confirm. Editing or removing a library food does not change the nutrition snapshot in earlier saved meals. Supported photo and text suggestions run on the device. Nutrition-label photos are read locally, and you review the extracted amounts before saving. NiviLog does not store label photos or OCR transcripts in your food library or Google Sheet; only the values you confirm become part of your food records. The app does not send journal text or photos to OpenAI or another hosted AI inference service. A model or platform component may need an initial download; the download provider can receive ordinary network information such as an IP address.
 
 **Optional patterns.** With your separate consent, the app compares your entries with symptoms, mood and energy locally. These associations are uncertain. They do not diagnose allergies, predict a safe amount of food, or establish that a food caused a symptom. NiviLog does not use them to make decisions with legal or similarly significant effects about you.
 
-**Optional Google Sheets sync.** With your consent and Google authorization, the app reads and writes saved entries, nutrition, check-ins and revision history in your Google account, in the NiviLog folder and Sheet it creates or connects to. Drafts and nutrition goals remain local. Your Sheet contains readable data: the app's local encryption does not encrypt the Sheet's contents. People or services with access through your Google sharing settings may be able to read them. Google's terms, privacy practices, retention and account controls also apply. See [Google's Privacy Policy](https://policies.google.com/privacy).
+**Optional Google Sheets sync.** With your consent and Google authorization, the app reads and writes saved entries, nutrition, check-ins and revision history in your Google account, in the NiviLog folder and Sheet it creates or connects to. Drafts, nutrition goals and your personal food library remain local to this installation and journal/account. A synced meal includes the names, nutrition values and ingredient/source snapshots of personal foods used in that meal; it does not sync the whole library. Your Sheet contains readable data: the app's local encryption does not encrypt the Sheet's contents. People or services with access through your Google sharing settings may be able to read them. Google's terms, privacy practices, retention and account controls also apply. See [Google's Privacy Policy](https://policies.google.com/privacy).
 
 **Optional voice.** With your consent and device permission, the operating system's speech service turns speech into text. Depending on your device, language and settings, that provider may receive audio and process it online. The app uses the resulting text and does not maintain its own audio archive. Typing remains available. See your [Apple privacy controls](https://www.apple.com/legal/privacy/) or [Google privacy controls](https://policies.google.com/privacy), as applicable.
 
 **Security and privacy controls.** The app authenticates access, encrypts local private files, records privacy choices, and carries out export, deletion and migration. These controls operate without giving Hoplontec access to your journal.
+
+**Optional contributions.** If contributions are enabled, the app store handles payments under its own terms and privacy policy. NiviLog processes product identifiers, localized prices, transaction identifiers, payment status and completion information to show available contributions and finish or recover transactions. This information is held temporarily in app memory; NiviLog does not create a donor profile or send journal data with a payment. The app does not receive your card details. Apple or Google may make transaction and financial reports available to Hoplontec through the publisher account. Any records Hoplontec retains from those reports are used for accounting, refunds and legal obligations, and kept for the applicable accounting or legal retention period. Store records remain under the store’s controls; erasing your local journal does not erase them.
+
+## Optional product feedback, reviews and referrals
+
+**Website feedback.** In Settings → Help improve NiviLog, you can open the English or Spanish feedback form on hoplontec.io in your browser. The app opens a public page URL only; it does not attach your app version, device identifier, Google account, journal content, photos or nutrition goals. On the website you can choose a satisfaction rating and optionally a topic and comment. No name or email is requested. Nothing from the form is sent until you choose Send feedback. Do not include health details or contact information. Feedback remains optional and does not affect access to NiviLog.
+
+GitHub Pages hosts the form. FormSubmit processes the submitted rating, optional topic/comment, form language, the product name NiviLog and, when supported by your browser, a random reference for that submission. FormSubmit delivers the feedback to Hoplontec by email; the receiving address is not included in the feedback page or app. The form does not attach your account or journal and contains no analytics or advertising scripts. GitHub, FormSubmit, the email provider and any CAPTCHA provider receive the connection or delivery information needed to provide their services, such as IP addresses and request headers. Their own privacy policies apply. Browser behavior and copies you create are outside the app's storage controls.
+
+Hoplontec uses feedback to understand usability problems, measure satisfaction among respondents and prioritize improvements. It is not a public review. FormSubmit documents a 30-day submission archive; see its [documentation](https://formsubmit.co/documentation) and [privacy information](https://formsubmit.co/privacy.pdf). Hoplontec's policy is to retain product feedback for up to 180 days. You may request deletion through the privacy contact or mailing address above, providing the submission reference if available. Deleting your local journal does not retract feedback already sent. The form collects no reply address and cannot provide a personal response. The app does not store or queue feedback drafts.
+
+**Store reviews.** Rate NiviLog opens Apple App Store or Google Play. The app can also occasionally ask through the store's native review interface. Reviews you submit are handled by that store and may be public under your store profile. NiviLog does not receive your rating or review text from the native prompt. Local save counters and prompt dates limit requests; these counters are not sent to Hoplontec and contain no journal content. Private satisfaction responses do not control whether you are invited to review the app.
+
+**Referrals.** Refer to your friends opens the device share sheet with a general invitation and, when configured, a public download link. You choose the recipient and whether to send. NiviLog does not read your contacts, attach journal data, include referral identifiers or track who receives the invitation. The sharing app you select handles the message under its own policy.
 
 ## Who receives information
 
@@ -54,27 +68,29 @@ This version has no Hoplontec journal server, advertising SDK or analytics SDK. 
 
 Information can leave your device when you enable Google sync, use a speech service that processes online, follow an external link, or export/share records. Recipients include Google for your connected account, the speech provider on your device, and recipients you select. Device and app-store providers may separately handle downloads, network traffic and diagnostics according to their own settings and policies. Their activities are not all controlled by NiviLog.
 
+**Android label scanning.** The scanner uses Google ML Kit with a bundled text-recognition model. Photos and recognized text are processed on the device and are not sent to Google for recognition. ML Kit can send SDK performance and usage metrics to Google and contact Google for component updates or compatibility information, as described in [Google’s ML Kit privacy information](https://developers.google.com/ml-kit/terms). Label scanning is optional; manual entry remains available. iOS label scanning uses Apple Vision on the device.
+
 **Hoplontec cannot access your journal or connected Google Sheet through NiviLog. Your journal is not stored on Hoplontec’s servers.**
 
 If you contact Hoplontec, we receive the information you choose to include in your message and use it to respond to your enquiry. Please do not send health details, journal exports, or screenshots containing personal health information.
 
 ## Storage, retention and security
 
-Local journals, Google account caches, nutrition goals and the privacy/acceptance history use application-level encryption. The key is protected by the device's secure storage. Age-confirmation metadata and appearance preferences are ordinary local settings. Device authentication controls access; anyone able to satisfy your device's authentication may be able to open your journal.
+Local journals, Google account caches, nutrition goals, personal food libraries and the privacy/acceptance history use application-level encryption. The key is protected by the device's secure storage. Age-confirmation metadata and appearance preferences are ordinary local settings. Device authentication controls access; anyone able to satisfy your device's authentication may be able to open your journal.
 
 The app requests platform protections against backup and background exposure. These depend on the device and operating system. Decrypted information can remain in the running app's memory. Encryption cannot protect a readable export, a shared Sheet, all screenshots, or a compromised device, and no system guarantees complete security.
 
-Local records remain until you remove them. Editing or deleting a synced entry can retain earlier revisions in the local account history and in the Sheet. Removing an entry from the visible journal is therefore not complete historical erasure. **Erase all local data** removes this installation's owned journal files, account caches, goals, privacy/acceptance history, age confirmation and encryption key. Appearance preferences remain. Destroying the key or losing secure storage can make unsynced records unrecoverable; Hoplontec cannot recover the key for you.
+Local records remain until you remove them. Editing or deleting a synced entry can retain earlier revisions in the local account history and in the Sheet. Removing an entry from the visible journal is therefore not complete historical erasure. **Erase all local data** removes this installation's owned journal files, account caches, goals, personal food libraries, privacy/acceptance history, age confirmation and encryption key. Appearance preferences remain. Destroying the key or losing secure storage can make unsynced records unrecoverable; Hoplontec cannot recover the key for you.
 
 Local erasure does not delete Google files, revoke Google access, remove copies on other devices, or recall exports. Delete cloud copies in Google Drive, review shared copies and Google account access, and erase other installations separately. Reconnecting to a retained Sheet can download its records again. Provider backups, trash and revision retention remain subject to that provider's controls.
 
 Photos are not stored as journal attachments. Original photos may remain in your library or operating-system picker caches. Exports are readable JSON files. The app attempts to clear its temporary export/share files at the next app start, before another export and during local erasure; failed cleanup can leave a temporary file until cleanup succeeds. Copies saved by you or another app remain outside these controls.
 
-For communications you send us, retention depends on completing the request, resolving any related dispute and applicable legal retention duties. We limit retention to those purposes; you may ask what remains and request deletion. We do not retain a separate publisher copy of your local journal or acceptance record through normal app use.
+For support or privacy enquiries you send us, retention depends on completing the request, resolving any related dispute and applicable legal retention duties. We limit retention to those purposes; you may ask what remains and request deletion. We do not retain a separate publisher copy of your local journal or acceptance record through normal app use.
 
 ## Access, correction, deletion and complaints
 
-You can review and correct current journal entries in the app and export existing local records from Privacy & security. Export includes cached revisions, drafts, goals and privacy/acceptance history; it does not fetch records that exist only in the cloud. It requires device authentication and produces an unencrypted copy. Review the retention section before using entry deletion or local erasure.
+You can review and correct current journal entries in the app and export existing local records from Privacy & security. Export includes cached revisions, drafts, goals, personal food libraries and privacy/acceptance history; it does not fetch records that exist only in the cloud. It requires device authentication and produces an unencrypted copy. Review the retention section before using entry deletion or local erasure.
 
 Contact us at the address above for privacy questions, complaints or requests relating to information we hold. Depending on the law that applies, your rights may include access, correction, deletion, portability, restriction, objection, withdrawing consent and appealing a refused request. We will respond within applicable legal time limits, explain any refusal and available review route, and request only proportionate verification. Do not include journal contents with your enquiry. Exercising privacy rights does not authorize advertising or unrelated processing.
 

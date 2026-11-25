@@ -1,8 +1,8 @@
 # NiviLog Terms of Use
 
-Version 2026-11-24.2 · Updated November 24, 2026
+Version 2026-11-25.2 · Updated November 25, 2026
 
-**Pre-release draft. NiviLog is coming soon. This document describes the current development version.**
+**Pre-release draft. NiviLog is not yet available in the app stores.**
 
 ## Your agreement with Hoplontec
 
@@ -16,7 +16,7 @@ NiviLog is a personal food and wellbeing journal. It helps you record food, port
 
 **NiviLog is not a medical service or an emergency service.** Its estimates, goals and associations are informational. They are not diagnoses, prescriptions, treatment recommendations, allergy tests or assurances that a food or amount is safe for you. Nobody monitors your journal for emergencies.
 
-Food identification can be wrong. Nutritional composition varies with ingredients, preparation and portions, and estimates may omit information. Confirm suggested foods and portions before saving. An association between food and a symptom does not establish causation, identify an allergy or exclude a medical condition. Do not use the app as the sole basis for medication changes, treatment decisions or avoiding professional care. Seek qualified advice for health concerns and urgent help from local emergency services when needed.
+Food identification can be wrong. Nutritional composition varies with ingredients, preparation and portions, and estimates may omit information. Confirm suggested foods and portions before saving. Personal label foods use nutrition values and serving weights you enter; NiviLog does not independently verify them. Homemade recipes use saved ingredient references, amounts and servings; cooking losses and uneven serving sizes are not estimated. Food shortcuts retain the selected food reference and usual portion. Missing values remain unknown. Library edits or deletion do not recalculate earlier saved meals. An association between food and a symptom does not establish causation, identify an allergy or exclude a medical condition. Do not use the app as the sole basis for medication changes, treatment decisions or avoiding professional care. Seek qualified advice for health concerns and urgent help from local emergency services when needed.
 
 These limitations describe the app's intended use. They do not remove our obligations to provide the app with the care or quality required by law.
 
@@ -48,7 +48,9 @@ Apple's applicable standard end-user licence, or any valid store licence express
 
 Google Sheets and operating-system speech services have separate accounts, permissions, terms and privacy practices. You decide whether to connect them. Their availability and features can change; we do not control their sharing settings, backups or retention. You can continue typed local journaling without Google sync or speech, subject to device authentication and journal consent. Your mobile or internet provider may charge for connectivity.
 
-This version does not implement an in-app subscription or one-time purchase. Agreeing to these Terms authorizes no charge. If paid features are introduced, the offer must identify the price, included features, billing period or one-time nature, any renewal and cancellation terms, and applicable refund rights before purchase through the relevant store. Future paid access requires that separate purchase choice. Mandatory consumer rights and store refund procedures are not excluded.
+NiviLog is free to use, with no required purchase or subscription. Every feature is available without contributing. Agreeing to these Terms authorizes no charge.
+
+Where available, you may choose a voluntary, non-recurring contribution to Hoplontec Inc to support NiviLog development. The store displays the price and asks for your separate confirmation. Contributions do not unlock features, create a recurring commitment, or purchase a promised improvement or medical outcome. They support the publisher, not a charitable fundraising campaign; no tax deduction is promised. Store fees and applicable taxes may reduce the amount the publisher receives. Your store provides payment records and refund-request procedures. Mandatory consumer and refund rights are preserved.
 
 ## Updates and ending use
 
@@ -68,7 +70,7 @@ To the extent the law permits, we are not responsible for loss that neither part
 
 ## Questions, complaints and disputes
 
-Contact Hoplontec Inc at **1111B S Governors Ave #87194, Dover, DE 19904, USA**. Privacy and app enquiries: **[legal@armur.org](mailto:legal@armur.org)**. Our website is [hoplontec.io](https://hoplontec.io). Describe the issue and the outcome you seek. Please do not send health details, journal exports, or screenshots containing personal health information. You may use any statutory complaint or court process available to you without first waiving rights or accepting new terms.
+Contact Hoplontec Inc at **1111B S Governors Ave #87194, Dover, DE 19904, USA**. Privacy and app enquiries: **[Contact form](https://hoplontec.io/contact.html)**. Our website is [hoplontec.io](https://hoplontec.io). Describe the issue and the outcome you seek. Please do not send health details, journal exports, or screenshots containing personal health information. You may use any statutory complaint or court process available to you without first waiving rights or accepting new terms.
 
 Delaware law governs this agreement to the extent permitted by law. This choice does not take away mandatory consumer or privacy protections in your place of residence or require you to bring a claim only in Delaware when applicable law gives you a right to use a local court. No clause requires a waiver of a non-excludable remedy.
 

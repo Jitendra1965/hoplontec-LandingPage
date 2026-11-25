@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f5e9"><meta name="referrer" content="no-referrer">
+  <meta name="description" content="Share your experience with NiviLog. A short, optional feedback form with no name or email required.">
+
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; form-action 'self' https://formsubmit.co; base-uri 'none'; object-src 'none'">
+  <title>Help improve NiviLog | Hoplontec Inc.</title>
+  <link rel="canonical" href="https://hoplontec.io/nivilog-feedback.html">
+  <link rel="alternate" hreflang="en" href="https://hoplontec.io/nivilog-feedback.html">
+  <link rel="alternate" hreflang="es" href="https://hoplontec.io/nivilog-feedback-es.html">
+  <link rel="icon" href="assets/nivilog-icon-320.webp"><link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="feedback.css"><script src="feedback.js" defer></script>
+</head>
+<body class="feedback-page">
+  <a class="skip-link" href="#feedback">Skip to feedback</a>
+  <div class="page-shell">
+    <header class="header feedback-header">
+      <a class="wordmark" href="./" aria-label="Hoplontec">hoplontec<span class="inc">inc.</span></a>
+      <nav aria-label="Select language" class="language-switch"><a href="nivilog-feedback.html" lang="en" hreflang="en" aria-current="page">English</a><a href="nivilog-feedback-es.html" lang="es" hreflang="es" >Español</a></nav>
+    </header>
+    <main class="feedback-layout" id="feedback">
+      <section class="feedback-intro" aria-labelledby="page-title"><a class="nivilog-mark" href="nivilog.html"><img src="assets/nivilog-icon-320.webp" width="48" height="48" alt=""><span>NiviLog</span></a><p class="eyebrow">NIVILOG · YOUR VOICE MATTERS</p><h1 id="page-title">A little feedback.<br><em>A better NiviLog.</em></h1><p class="hero-description">What feels helpful? What could be easier? Your experience helps us choose what to improve next.</p><p class="feedback-mission">A free app, shaped by the people who use it.</p></section>
+      <section class="feedback-card" aria-labelledby="form-title">
+        <h2 id="form-title">Tell us about your experience</h2><p class="feedback-required">Only your satisfaction rating is required.</p>
+        <p class="feedback-unavailable" data-unavailable role="status">Feedback sending is not available yet. Please come back soon; nothing entered here will be sent.</p>
+        <form id="feedback-form" action="" method="POST" data-configured="false" data-next="https://hoplontec.io/nivilog-feedback-thanks.html" data-pending="Sending…">
+          <input type="hidden" name="_subject" value="NiviLog product feedback"><input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="https://hoplontec.io/nivilog-feedback-thanks.html"><input type="hidden" name="product" value="NiviLog">
+          <input type="hidden" name="language" value="en"><input type="hidden" name="reference" value="">
+          <div class="feedback-trap" aria-hidden="true"><label>Leave blank<input type="text" name="_honey" tabindex="-1" autocomplete="off"></label></div>
+          <fieldset id="feedback-fields" disabled>
+            <legend class="visually-hidden">Tell us about your experience</legend>
+            <fieldset class="satisfaction"><legend>How satisfied are you with NiviLog?</legend><div class="rating-options"><label class="rating-choice"><input type="radio" name="satisfaction" value="1" required><span class="rating-number">1</span><span>Very dissatisfied</span></label>
+<label class="rating-choice"><input type="radio" name="satisfaction" value="2" required><span class="rating-number">2</span><span>Dissatisfied</span></label>
+<label class="rating-choice"><input type="radio" name="satisfaction" value="3" required><span class="rating-number">3</span><span>Neutral</span></label>
+<label class="rating-choice"><input type="radio" name="satisfaction" value="4" required><span class="rating-number">4</span><span>Satisfied</span></label>
+<label class="rating-choice"><input type="radio" name="satisfaction" value="5" required><span class="rating-number">5</span><span>Very satisfied</span></label></div></fieldset>
+            <div class="feedback-field"><label for="topic">What could we improve? <span>(optional)</span></label><select id="topic" name="topic"><option value="">Choose a topic</option><option value="meal_understanding">Understanding meals</option><option value="food_choices">Food choices</option><option value="charts">Charts</option><option value="ease_of_use">Ease of use</option><option value="other">Something else</option></select></div>
+            <div class="feedback-field"><label for="comment">Anything else? <span>(optional)</span></label><textarea id="comment" name="comment" rows="4" maxlength="1000" placeholder="Tell us what worked or what could be simpler." aria-describedby="comment-limit"></textarea><span id="comment-limit" class="feedback-hint">Up to 1,000 characters.</span></div>
+            <p class="feedback-privacy">Your answers go privately to Hoplontec through FormSubmit. No name or email is needed. Please leave out health details and contact information.</p>
+            <details class="feedback-details"><summary>How your feedback is handled</summary><p>We send only your rating, chosen topic, comment, form language and a random submission reference. No app account, journal, photos or device identifier is attached. GitHub hosts this page; FormSubmit processes the submission and emails it to Hoplontec. These providers receive connection information such as your IP address. FormSubmit may present a CAPTCHA. This page has no analytics or advertising scripts.</p><p>FormSubmit documents a 30-day submission archive. Hoplontec keeps product feedback for up to 180 days to review and prioritize improvements. This form cannot provide a personal reply. Submitting feedback is optional and does not affect your access to NiviLog.</p><a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener noreferrer">FormSubmit privacy information</a> · <a href="nivilog-privacy.html">NiviLog privacy policy</a></details>
+            <button class="button feedback-submit" type="submit">Send feedback</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer class="footer feedback-footer"><span>A product of Hoplontec Inc.</span><a href="nivilog.html">About NiviLog</a><a href="nivilog-privacy.html">NiviLog privacy policy</a></footer>
+  </div>
+</body>
+</html>
