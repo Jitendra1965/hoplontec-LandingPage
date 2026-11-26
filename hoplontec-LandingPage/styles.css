@@ -141,3 +141,13 @@ h1 em,.page-intro h1 em{letter-spacing:inherit}
 .legal-document p{margin:0 0 1.25rem}.legal-document li{margin-bottom:.75rem}.legal-document ul{padding-left:1.5rem}
 .legal-contents{background:var(--pale);padding:1.5rem;border:1px solid var(--line);border-radius:16px;margin:2rem 0}.legal-contents h2{margin-top:0}.legal-contents ul{margin-bottom:0}
 @media(max-width:48rem){.legal-page{padding:2rem 0}.legal-contents{padding:1.25rem}}
+
+/* Screenshots keep their full device proportions and open for closer reading. */
+.nivi-screen-link{display:block}.nivi-screen-link:hover{background:#c8ddd0}.nivi-screen-link:focus-visible{outline:3px solid var(--green);outline-offset:5px}
+.nivi-demo-grid{row-gap:2.5rem}
+
+/* Full app welcome screen in the NiviLog brand card. */
+.nivilog-card .nivilog-app-preview{width:100%;max-width:230px;margin-inline:auto;border:5px solid #16483e;border-radius:25px;overflow:hidden;box-shadow:0 12px 30px #003d3540}
+.nivilog-app-preview img{border-radius:0;height:auto}
+.nivilog-app-preview:focus-visible{outline:3px solid var(--ivory);outline-offset:6px}
+@media(max-width:48rem){.nivilog-card .nivilog-app-preview{max-width:210px}}
