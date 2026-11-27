@@ -151,3 +151,9 @@ h1 em,.page-intro h1 em{letter-spacing:inherit}
 .nivilog-app-preview img{border-radius:0;height:auto}
 .nivilog-app-preview:focus-visible{outline:3px solid var(--ivory);outline-offset:6px}
 @media(max-width:48rem){.nivilog-card .nivilog-app-preview{max-width:210px}}
+
+/* User-controlled demo playback with captions and a text alternative. */
+.nivi-video-figure{margin:0}.nivi-video-figure video{display:block;width:100%;height:auto;border-radius:18px;background:#e4ebe2;border:1px solid var(--line);margin-inline:auto}
+.nivi-video-figure video.nivi-video-portrait{max-width:360px}
+.nivi-video-figure figcaption{font-size:.875rem;line-height:1.7;color:var(--muted);margin-top:1rem}
+.nivi-demo-transcript{margin-top:1rem;border-bottom:1px solid var(--line);padding-bottom:1rem}.nivi-demo-transcript summary{cursor:pointer;min-height:44px;padding:.75rem 0;font-weight:600}.nivi-demo-transcript p{white-space:pre-line;line-height:1.8;max-width:800px;color:var(--muted)}

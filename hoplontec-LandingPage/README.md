@@ -58,3 +58,7 @@ Hoplontec should restrict inbox access and remove product-feedback messages with
 The confirmed opaque FormSubmit handle is now configured for both NiviLog feedback languages and the existing contact/careers forms. Current form templates and deployment artifacts use that handle instead of the receiving inbox address. No live test email was sent by automated validation.
 
 The NiviLog page now uses seven owner-supplied iPhone screenshots (IMG_9249–IMG_9255, November 25, 2026), stored as optimized WebP assets with the `20261125` suffix. The full screenshot content is preserved; walkthrough images link to larger copies. Older development previews remain in assets but are no longer displayed on the page.
+
+## NiviLog video demo
+
+The owner-supplied NiviLog-Website-Demo.zip provides the video tour in `assets/nivilog-demo/`, with landscape/portrait MP4s, posters, English captions, transcript, and production credits/licenses. The page selects the portrait edit on initial mobile load, never autoplays, and uses `preload="none"`. All assets are included by the existing assets-copy deployment step.
