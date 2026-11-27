@@ -1,0 +1,41 @@
+NiviLog — How to use your food and feelings journal
+English narration · Illustrative sample journal
+
+00:00:00  WELCOME
+Welcome to NiviLog, your private food and feelings journal. Here's how to make it part of your day.
+
+00:00:07  01  /  YOUR JOURNAL
+Start in Logs. Your meals and check-ins stay together, and the filters help you find earlier entries.
+
+00:00:15  02  /  ADD A MEAL
+To log a meal, tap Add an entry. Describe what you ate, including amounts when you can, then tap Review and save.
+
+00:00:22  03  /  CHECK THE MATCHES
+Check the foods NiviLog found. These are suggested matches, so correct anything that doesn't reflect your meal.
+
+00:00:30  04  /  CONFIRM PORTIONS
+Tap Edit to adjust a portion or choose another food. When the foods and amounts look right, save your meal.
+
+00:00:37  05  /  DAILY VIEW
+Daily View brings your logged nutrition together. These are estimates, and they only include the meals and portions you've recorded.
+
+00:00:45  06  /  YOUR GOALS
+In Settings, open Nutrition goals to choose daily markers. Set targets that suit your plan; the app's starting values aren't personal recommendations.
+
+00:00:55  07  /  HOW YOU FEEL
+For a check-in, choose How I'm feeling. Record a feeling, mood, or energy rating, then save. Add notes whenever they're useful.
+
+00:01:03  08  /  LOOK BACK
+In Patterns, look back over seven, thirty, or ninety days. Days without entries stay blank, so gaps aren't mistaken for low ratings.
+
+00:01:12  09  /  NUTRITION TRENDS
+Switch to Nutrition to follow protein, carbs, fat, and fiber. Tap the chart to explore a day's logged values.
+
+00:01:20  10  /  FOOD & FEELINGS
+Food and feelings can highlight possible associations when enough records are available. These observations don't prove a cause or diagnose an allergy.
+
+00:01:30  11  /  MAKE IT YOURS
+Choose English or Spanish in Settings. Adjust text size, contrast, and other accessibility options to make your journal comfortable to use.
+
+00:01:39  YOUR NEXT STEP
+NiviLog works offline and is free to use. Start with a meal and one check-in. A product by Hoplontec.

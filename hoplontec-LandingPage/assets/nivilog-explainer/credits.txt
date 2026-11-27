@@ -1,0 +1,22 @@
+NiviLog website explainer production credits
+
+App artwork, branding and footage: NiviLog / Hoplontec Inc.
+All journal entries and goals in the footage are illustrative samples.
+
+Speech synthesis: Kokoro-82M v1.0, voice af_heart, an American English female
+synthetic narrator. Inference ran locally; no individual was cloned for this demo.
+Model license: Apache License 2.0, declared by the model publisher.
+Model and voice information:
+https://huggingface.co/hexgrad/Kokoro-82M
+https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md
+ONNX runtime wrapper: kokoro-onnx 0.6.1, MIT License.
+https://github.com/thewh1teagle/kokoro-onnx
+Downloaded model files:
+https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0
+
+The accompanying MP4s contain rendered narration, not the speech model or software.
+The included license copies are production references for future regeneration.
+
+Music: original synthesized instrumental prepared for the NiviLog preview.
+Typography: rendered with the system's installed Arial fonts; no font files included.
+Video editing and encoding: FFmpeg through imageio-ffmpeg.

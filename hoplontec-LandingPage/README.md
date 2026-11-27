@@ -62,3 +62,18 @@ The NiviLog page now uses seven owner-supplied iPhone screenshots (IMG_9249–IM
 ## NiviLog video demo
 
 The owner-supplied NiviLog-Website-Demo.zip provides the video tour in `assets/nivilog-demo/`, with landscape/portrait MP4s, posters, English captions, transcript, and production credits/licenses. The page selects the portrait edit on initial mobile load, never autoplays, and uses `preload="none"`. All assets are included by the existing assets-copy deployment step.
+
+
+## NiviLog explainer
+
+The product page also includes the 1 minute 47 second guide at `#explainer`.
+Its landscape/mobile MP4s, posters, English captions, chapter track, transcript,
+and production credits are in `assets/nivilog-explainer/`. The original 41-second
+demo remains at `#demo`. Both use the same female English synthetic narrator.
+Native controls, `preload="none"`, and no autoplay keep playback user initiated.
+The shared `assets/nivilog-demo/player.js` selects the portrait edit once on mobile
+and pauses the other video when playback starts. Without JavaScript, landscape
+videos and captions remain usable. Each video has an expandable text transcript.
+No external video service or player dependency is added. The existing Pages
+workflow copies these assets automatically; the script URL has a content hash so
+visitors receive the updated two-player behavior.
