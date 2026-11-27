@@ -77,3 +77,9 @@ videos and captions remain usable. Each video has an expandable text transcript.
 No external video service or player dependency is added. The existing Pages
 workflow copies these assets automatically; the script URL has a content hash so
 visitors receive the updated two-player behavior.
+
+
+The demo and explainer share a two-column layout from 64rem (1024 CSS pixels),
+with aligned player rows. They stack below that width. Each keeps its own native
+controls, captions and transcript; opening a transcript does not shift the other
+player. Portrait source selection on initial phone load is unchanged.

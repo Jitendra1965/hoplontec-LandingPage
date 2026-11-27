@@ -157,3 +157,19 @@ h1 em,.page-intro h1 em{letter-spacing:inherit}
 .nivi-video-figure video.nivi-video-portrait{max-width:360px}
 .nivi-video-figure figcaption{font-size:.875rem;line-height:1.7;color:var(--muted);margin-top:1rem}
 .nivi-demo-transcript{margin-top:1rem;border-bottom:1px solid var(--line);padding-bottom:1rem}.nivi-demo-transcript summary{cursor:pointer;min-height:44px;padding:.75rem 0;font-weight:600}.nivi-demo-transcript p{white-space:pre-line;line-height:1.8;max-width:800px;color:var(--muted)}
+
+
+/* Stack on small screens; share row sizes on desktop to align both players
+   even when their headings or descriptions wrap to different line counts. */
+.nivi-video-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:3rem;margin-bottom:4rem}
+.nivi-video-grid>.nivi-demo-section{min-width:0;margin-bottom:0}
+.nivi-video-grid .product-lead a{text-decoration:underline;text-underline-offset:.2em}
+.nivi-video-grid .nivi-demo-transcript{align-self:start}
+.nivi-video-grid .nivi-demo-transcript summary:focus-visible{outline:3px solid var(--nivi-teal);outline-offset:4px;border-radius:4px}
+@media(min-width:64rem){
+  .nivi-video-grid{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:2rem;row-gap:0}
+  @supports(grid-template-rows:subgrid){
+    .nivi-video-grid>.nivi-demo-section{display:grid;grid-template-rows:subgrid;grid-row:span 5;row-gap:0}
+  }
+}
+@media(max-width:48rem){.nivi-video-grid{margin-bottom:3rem}}
